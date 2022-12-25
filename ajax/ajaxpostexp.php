@@ -79,6 +79,9 @@
 					cache: false,
 					success: function(data) {
 						window.location.href = "ajax.php";
+						console.log(data);
+						alert(data);
+						alert("successfull");
 					},
 					error: function(xhr, status, error) {
 						console.error(xhr);
