@@ -78,7 +78,6 @@
 					},
 					cache: false,
 					success: function(data) {
-						window.location.href = "ajax.php";
 						console.log(data);
 						alert(data);
 						alert("successfull");
